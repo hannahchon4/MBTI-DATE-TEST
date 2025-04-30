@@ -1,4 +1,4 @@
-
+window.onload = function() {
 const questions = [
   {
     text: "How do you usually plan a date?",
@@ -92,4 +92,5 @@ function restartQuiz() {
   scores = { E: 0, I: 0, N: 0, S: 0, T: 0, F: 0, J: 0, P: 0 };
   document.getElementById("result-page").style.display = "none";
   document.getElementById("start-page").style.display = "block";
+  };
 }
