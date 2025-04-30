@@ -1,0 +1,33 @@
+
+body {
+  margin: 0;
+  font-family: 'Comfortaa', sans-serif;
+  background: linear-gradient(to bottom right, #ffd3b4, #f4ced8);
+  color: #333;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+button {
+  font-family: 'Comfortaa', sans-serif;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #ffb3ab;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+button:hover {
+  background-color: #f5a3a1;
+}
+.page {
+  display: none;
+}
+.page.active {
+  display: block;
+}

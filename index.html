@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dating Report Card</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="start-page" class="page">
+      <h1>Dating Report Card</h1>
+      <p>Uncover your strengths, wishes, challenges, and reminders in love.</p>
+      <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <div id="quiz-page" class="page" style="display:none;">
+      <div id="question-container"></div>
+    </div>
+
+    <div id="result-page" class="page" style="display:none;">
+      <h2>Your Dating Report Card</h2>
+      <div id="result"></div>
+      <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
